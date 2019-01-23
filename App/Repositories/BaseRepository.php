@@ -34,7 +34,6 @@ abstract class BaseRepository{
         return $this->dbLink;
     }
 
-
     public function __construct()
     {
 //        $this->makeAsyncResource();
