@@ -26,7 +26,7 @@ abstract class BaseRepository{
 
     private $redisLink;
     private $redisPool;
-
+    
     private $tryTimes = 3;
     protected $currentTimestamp;
 

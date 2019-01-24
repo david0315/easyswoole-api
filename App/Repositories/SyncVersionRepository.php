@@ -20,10 +20,6 @@ class SyncVersionRepository extends BaseRepository{
         $this->versionModel = new SyncVersion();
         $this->versionDetailModel = new SyncVersionDetail();
     }
-    public function __destruct()
-    {
-        parent::__destruct();
-    }
 
     /**
      * @param $json
